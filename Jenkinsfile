@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building from branch ${env.BRANCH_NAME}"
+                echo "Building from feature-x branch."
             }
         }
     }
